@@ -1,0 +1,54 @@
+#TopSection {
+  nav {
+    background-color: white;
+
+    .navbar-brand img {
+      width: 120px;
+    }
+
+    .navbar-nav {
+      margin-left: 80px;
+
+      .nav-item {
+        margin-right: 40px;
+
+        a {
+          font-size: 11px;
+          text-transform: uppercase;
+          font-family: 'Dosis', sans-serif;
+          color: black;
+
+          &:hover {
+            color: #3393AB;
+          }
+        }
+      }
+    }
+  }
+
+  h1 {
+    padding: 80px 0;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 75px;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  #navbarText {
+    position: relative;
+
+    .navbar-text {
+      position: absolute;
+      right: 0;
+
+      a {
+        font-family: 'Dosis', sans-serif;
+        font-weight: 14px;
+        padding: 27px 10px;
+        background-color: #F17C08;
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,56 @@
+#Services {
+  border-top: 1px solid #ededed;
+
+  h4{
+    padding-left: 15px;
+    border-left: 2px solid #F17C08;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin: 0 0 40px;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-family: 'Dosis', sans-serif;
+
+    img {
+      width: 40px;
+      margin-right: 20px;
+    }
+  }
+
+  .logo {
+    width: 80%;
+    display: block;
+    margin: 40px auto 0;
+  }
+
+  .card {
+    background: none;
+    cursor: pointer;
+
+    p  {
+      font-weight: 100;
+    }
+  }
+
+  .card:hover {
+
+    .card-title {
+      text-decoration: underline;
+    }
+
+    &.ambiental {
+      background-image: url("/assets/images/ambiental.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &.equipo {
+      background: url("/assets/images/equipo.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+}
