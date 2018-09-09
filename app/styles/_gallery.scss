@@ -1,0 +1,15 @@
+#gallery {
+  .container {
+    background-color: #6b6969bd;
+  }
+
+  .carousel-item {
+    height: 600px;
+    overflow: hidden;
+    img {
+      margin: 0 auto;
+      display: block;
+      height: 100%;
+    }
+  }
+}
