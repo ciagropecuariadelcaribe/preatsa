@@ -1,8 +1,9 @@
 body {
   background-color: aliceblue  !important;
   background-image: url("/assets/images/bg.png");
-  background-size: cover;
+  background-size: contain;
   color:  #252942;
+  min-width: 320px;
 }
 
 * {
@@ -63,5 +64,83 @@ body {
     font-size: 12px;
     right: 0;
     bottom: 20px;
+  }
+}
+
+
+//responsive
+
+@media all and (max-width: 991px) {
+  .content {padding: 40px 0}
+  .content #AboutUs , {
+    padding: 0;
+
+    .img {
+      display: block;
+      margin: 0 auto 40px;
+      width: 300px;
+    }
+
+    .text {
+      width: 100%;
+      padding-left: 0;
+      margin-bottom: 40px;
+
+      h4 {
+       br { display: none;}
+     }
+    }
+  }
+
+  .content #Services {
+    h4 {
+     br { display: none;}
+    }
+
+    .equipo {
+      margin-bottom: 20px;
+    }
+
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  #TopSection h1{
+    font-size: 30px;
+  }
+
+  #Contact h1{
+    font-size: 25px;
+  }
+
+  #gallery .container .carousel-item {
+    height: 400px;
+  }
+}
+
+@media all and (max-width: 382px) {
+  #TopSection h1 {
+    font-size: 25px;
+  }
+
+  #Contact h1 {
+   font-size: 20px;
+  }
+
+  #Contact h4 {
+    font-size: 18px;
+  }
+
+  #gallery .container .carousel-item {
+    height: 350px;
+  }
+
+  #footer span {
+    font-size: 8px;
+  }
+
+  .content #AboutUs .img {
+    width: 250px;
   }
 }
